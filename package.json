@@ -1,5 +1,5 @@
 {
-  "name": "datetime",
+  "name": "@glasspdev/datetime",
   "version": "1.0.0",
   "description": "A zero-dependency wrapper around date with timezone support",
   "main": "dist/index.js",
