@@ -1,6 +1,6 @@
 {
   "name": "@glasspdev/datetime",
-  "version": "1.0.0+1",
+  "version": "1.0.1",
   "description": "A zero-dependency wrapper around date with timezone support",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
