@@ -1,10 +1,15 @@
 {
   "name": "@glasspdev/datetime",
-  "version": "1.0.0",
+  "version": "1.0.0+1",
   "description": "A zero-dependency wrapper around date with timezone support",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsup",
     "prepublish": "tsc -p ./tsconfig.json",
     "eslint": "eslint \"lib/**/*.ts\" --fix",
     "eslint-check": "eslint \"lib/**/*.ts\"",
@@ -31,6 +36,7 @@
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-unused-imports": "^3.0.0",
     "prettier": "^3.2.4",
+    "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   }
 }
