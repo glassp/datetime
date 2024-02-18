@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A zero-dependency wrapper around date with timezone support",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "prepublish": "tsc -p ./tsconfig.json",
     "eslint": "eslint \"lib/**/*.ts\" --fix",
     "eslint-check": "eslint \"lib/**/*.ts\"",
     "format": "prettier --write \"lib/**/*.ts\"",
